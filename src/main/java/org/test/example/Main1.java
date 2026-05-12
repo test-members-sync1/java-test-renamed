@@ -14,7 +14,7 @@ public class Main1 {
 
     String p;
     String p1 = getPassword();
-    System.out.println(p1);
+    System.out.println(p1); // todo:
   }
 
   private static String getPassword(){
