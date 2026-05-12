@@ -15,7 +15,7 @@ public class Main {
 
     System.out.println(ftpClient.toString());
     Random random = new Random();
-    System.out.println(random.nextInt());
+    System.out.println(random.nextInt()); System.out.println(random.nextInt());
 
 
     String s;
