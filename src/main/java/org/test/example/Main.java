@@ -36,6 +36,8 @@ public class Main {
     String password1 = "askjdhk";
     String password2 = "askjdhk";
     String password3 = "askjdhk";
+    String password_new = "123172368";
+    String aws_shared_secret = "wueirhbj_56sdTYV";
     return password;
   }
 
