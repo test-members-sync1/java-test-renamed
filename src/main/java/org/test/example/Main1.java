@@ -31,7 +31,7 @@ public class Main1 {
   private static String smthngNew2(){
     String password = "askjdhk";
     String password1 = "askjdhk";
-    String password2 = "askjdhk";
+    String password2 = "askjdhkgjhgjhgjhg";
     String password3 = "askjdhk";
     return password;
   }
