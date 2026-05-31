@@ -1,0 +1,52 @@
+{
+  "msbuild_major_minor_version": "Unknown",
+  "organization_uuid": "AYZKypnrLvMUZ5I5ZZq8",
+  "node_js_major_version": "18",
+  "force_node_under_10_during_grace_period": "false",
+
+  "msbuild_major_version": "Unknown",
+  "msbuild_version": "Unknown",
+  "scanner_type": "ScannerCLI",
+
+
+  "branch_type": "LONG",
+  "max_heap_byte": "7516192768",
+  "branch_uuid": "AYyCJ5NplSn9uJ7sjcH8",
+  "force_java_8_during_grace_period": "false",
+  "scanner_version": "5.0.1.3006",
+  "scm": "git",
+  "msbuild_unknown_reason": "Get version command exited / had an exception (exit code : N/A ; stdout: N/A ; stderr: N/A ; exception : org.sonar.api.utils.command.CommandException: java.io.IOException: Cannot run program \"dotnet\": error\u003d2, No such file or directory)",
+  "project_uuid": "AYyCJ5NplSn9uJ7sjcH8",
+
+  "physical_memory_byte": "15485370368",
+  "alm": "github",
+  "java_major_version": "17",
+
+  "ci_name": "Autoscan for Java",
+  "message_timestamp": "2023-12-19T12:58:24.776Z",
+  "os_arch": "x86_64",
+  "scanner_major_version": "5.0",
+  "message_type": "scanner_context",
+  "message_version": 1,
+  "jvm_arch": "64",
+  "peak_used_heap_byte": "354708848",
+  "java_vendor": "Eclipse Adoptium",
+  "java_version": "17.0.9",
+  "os_name": "Linux",
+  "task_uuid": "AYyCJ-JklSn9uJ7sjcIE",
+  "garbage_collectors": [
+    "G1 Young Generation",
+    "G1 Old Generation"
+  ],
+  "node_js_version": "v18.17.1",
+
+
+  "project_main_language_fromMemory": "java",
+  "project_main_language": "java",
+
+  "project_size_fromMemory": "Unknown",
+  "project_size": "40",
+
+  "change_size_fromMemory": "Unknown",
+  "change_size": "40"
+}

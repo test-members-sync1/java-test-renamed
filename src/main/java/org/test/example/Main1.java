@@ -2,6 +2,7 @@ package org.test.example;
 
 public class Main1 {
   public static void main(String[] args) throws Exception{
+    System.out.println("yes");
     long j =02343533;
     String s;
     System.out.println("Hello world!");
@@ -20,6 +21,24 @@ public class Main1 {
   private static String getPassword(){
     String password = "askjdhk";
     return password;
+  }
+
+
+  private static String get(){
+    return "";
+  }
+
+
+
+  private static String get2(){
+    return "";
+  }
+
+
+
+
+  private static String get3(){
+    return "";
   }
 
 

@@ -1,0 +1,139 @@
+{
+  "rules": [
+    {
+      "ruleId": "111",
+      "name": "just_some_new_rule_name",
+      "engineId": "test",
+      "cleanCodeAttribute": "FORMATTED",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issues": [
+        {
+          "effortMinutes": 40,
+          "primaryLocation": {
+            "message": "fix the issue here",
+            "filePath": "src/main/java/org/test/example/Main.java",
+            "textRange": {
+              "startLine": 1,
+              "startColumn": 2,
+              "endLine": 3,
+              "endColumn": 4
+            }
+          }
+        },
+        {
+          "primaryLocation": {
+            "message": "fix the bug here",
+            "filePath": "src/main/java/org/test/example/Main1.java",
+            "textRange": {
+              "startLine": 3
+            }
+          }
+        },
+        {
+          "primaryLocation": {
+            "message": "fix the bug here",
+            "filePath": "src/main/java/org/test/example/Main.java"
+          }
+        },
+        {
+          "primaryLocation": {
+            "message": "fix the bug here",
+            "filePath": "src/main/java/org/test/example/Main.java"
+          },
+          "secondaryLocations": [
+            {
+              "message": "fix the bug here",
+              "filePath": "src/main/java/org/test/example/Main.java",
+              "textRange": {
+                "startLine": 1
+              }
+            },
+            {
+              "filePath": "src/main/java/org/test/example/Main1.java",
+              "textRange": {
+                "startLine": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ruleId": "222",
+      "name": "just_some_other_rule_name",
+      "description": "just_some_description",
+      "engineId": "test2",
+      "cleanCodeAttribute": "LAWFUL",
+      "impacts": [
+        {
+          "softwareQuality": "SECURITY",
+          "severity": "HIGH"
+        },
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "issues": [
+        {
+          "effortMinutes": 40,
+          "primaryLocation": {
+            "message": "fix the issue here",
+            "filePath": "src/main/java/org/test/example/Main.java",
+            "textRange": {
+              "startLine": 1,
+              "startColumn": 2,
+              "endLine": 3,
+              "endColumn": 4
+            }
+          }
+        },
+        {
+          "primaryLocation": {
+            "message": "fix updated bug here",
+            "filePath": "src/main/java/org/test/example/Main1.java",
+            "textRange": {
+              "startLine": 3
+            }
+          }
+        },
+        {
+          "primaryLocation": {
+            "message": "fix updated bug here",
+            "filePath": "src/main/java/org/test/example/Main.java"
+          }
+        },
+        {
+          "primaryLocation": {
+            "message": "fix updated bug here",
+            "filePath": "src/main/java/org/test/example/Main.java"
+          },
+          "secondaryLocations": [
+            {
+              "message": "fix updated bug here",
+              "filePath": "src/main/java/org/test/example/Main.java",
+              "textRange": {
+                "startLine": 1
+              }
+            },
+            {
+              "filePath": "src/main/java/org/test/example/Main1.java",
+              "textRange": {
+                "startLine": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
