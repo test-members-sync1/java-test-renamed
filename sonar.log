@@ -1,0 +1,52 @@
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+{"process":"app","instant":1692346341604,"date":"2023-08-18T10:12:21.604+02:00","severity":"INFO","logger":"org.sonar.application.AppFileSystem","message":"Cleaning or creating temp directory /Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/temp"}
+{"process":"app","instant":1692346341784,"date":"2023-08-18T10:12:21.784+02:00","severity":"INFO","logger":"org.sonar.application.ProcessLauncherImpl","message":"Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT]: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005 -DHTTP_NON_PROXY_HOSTS=localhost|127.*|[::1] -cp ./lib/common/*:/Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/lib/jdbc/postgresql/postgresql-42.6.0.jar org.sonar.server.app.WebServer /Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/temp/sq-process2820538760496237880properties"}
+{"process":"app","instant":1692346342300,"date":"2023-08-18T10:12:22.3+02:00","severity":"WARN","logger":"org.sonar.application.process.AbstractManagedProcess","message":"Process exited with exit value [web]: 2"}
+{"process":"app","instant":1692346342306,"date":"2023-08-18T10:12:22.306+02:00","severity":"INFO","logger":"org.sonar.application.SchedulerImpl","message":"Process[web] is stopped"}
+ERROR: transport error 202: bind failed: Address already in use
+{"process":"app","instant":1692346342307,"date":"2023-08-18T10:12:22.307+02:00","severity":"INFO","logger":"org.sonar.application.SchedulerImpl","message":"SonarQube is stopped"}
+ERROR: JDWP Transport dt_socket failed to initialize, TRANSPORT_INIT(510)
+JDWP exit error AGENT_ERROR_TRANSPORT_INIT(197): No transports initialized [./src/jdk.jdwp.agent/share/native/libjdwp/debugInit.c:735]
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+{"process":"app","instant":1692346386503,"date":"2023-08-18T10:13:06.503+02:00","severity":"INFO","logger":"org.sonar.application.AppFileSystem","message":"Cleaning or creating temp directory /Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/temp"}
+{"process":"app","instant":1692346386678,"date":"2023-08-18T10:13:06.678+02:00","severity":"INFO","logger":"org.sonar.application.ProcessLauncherImpl","message":"Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT]: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005 -DHTTP_NON_PROXY_HOSTS=localhost|127.*|[::1] -cp ./lib/common/*:/Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/lib/jdbc/postgresql/postgresql-42.6.0.jar org.sonar.server.app.WebServer /Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/temp/sq-process9257338559606786949properties"}
+Listening for transport dt_socket at address: 5005
+{"process":"app","instant":1692346423580,"date":"2023-08-18T10:13:43.58+02:00","severity":"INFO","logger":"org.sonar.application.SchedulerImpl","message":"Process[web] is up"}
+{"process":"app","instant":1692346423583,"date":"2023-08-18T10:13:43.583+02:00","severity":"INFO","logger":"org.sonar.application.SchedulerImpl","message":"SonarQube is up"}
+JVM exited unexpectedly.
+JVM exited in response to signal SIGKILL (9).
+JVM Restarts disabled.  Shutting down.
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+{"process":"app","instant":1692348648271,"date":"2023-08-18T10:50:48.271+02:00","severity":"INFO","logger":"org.sonar.application.AppFileSystem","message":"Cleaning or creating temp directory /Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/temp"}
+{"process":"app","instant":1692348648487,"date":"2023-08-18T10:50:48.487+02:00","severity":"INFO","logger":"org.sonar.application.ProcessLauncherImpl","message":"Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT]: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005 -DHTTP_NON_PROXY_HOSTS=localhost|127.*|[::1] -cp ./lib/common/*:/Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/lib/jdbc/postgresql/postgresql-42.6.0.jar org.sonar.server.app.WebServer /Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/temp/sq-process11517057606700008236properties"}
+Listening for transport dt_socket at address: 5005
+{"process":"app","instant":1692348688298,"date":"2023-08-18T10:51:28.298+02:00","severity":"INFO","logger":"org.sonar.application.SchedulerImpl","message":"Process[web] is up"}
+{"process":"app","instant":1692348688300,"date":"2023-08-18T10:51:28.3+02:00","severity":"INFO","logger":"org.sonar.application.SchedulerImpl","message":"SonarQube is up"}
+TERM trapped.  Shutting down.
+{"process":"app","instant":1692351263352,"date":"2023-08-18T11:34:23.352+02:00","severity":"INFO","logger":"org.sonar.application.SchedulerImpl","message":"Stopping SonarQube"}
+JVM exited in response to signal SIGKILL (9).
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+{"process":"app","instant":1692351271067,"date":"2023-08-18T11:34:31.067+02:00","severity":"INFO","logger":"org.sonar.application.AppFileSystem","message":"Cleaning or creating temp directory /Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/temp"}
+{"process":"app","instant":1692351271248,"date":"2023-08-18T11:34:31.248+02:00","severity":"INFO","logger":"org.sonar.application.ProcessLauncherImpl","message":"Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT]: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005 -DHTTP_NON_PROXY_HOSTS=localhost|127.*|[::1] -cp ./lib/common/*:/Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/lib/jdbc/postgresql/postgresql-42.6.0.jar org.sonar.server.app.WebServer /Users/bogdana.kushnir/IdeaProjects/sonarcloud-core/private/edition-sonarcloud/build/distributions/sonarqube-8.0-SNAPSHOT/temp/sq-process14147021215218100436properties"}
+Listening for transport dt_socket at address: 5005
+{"process":"app","instant":1692351307572,"date":"2023-08-18T11:35:07.572+02:00","severity":"INFO","logger":"org.sonar.application.SchedulerImpl","message":"Process[web] is up"}
+{"process":"app","instant":1692351307573,"date":"2023-08-18T11:35:07.573+02:00","severity":"INFO","logger":"org.sonar.application.SchedulerImpl","message":"SonarQube is up"}

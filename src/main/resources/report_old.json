@@ -1,0 +1,69 @@
+{
+"issues" : [
+  { 
+    "engineId": "eslint",
+    "ruleId": "rule1",
+    "severity": "BLOCKER",
+    "type": "CODE_SMELL",
+    "effortMinutes": 40,
+    "primaryLocation": {
+      "message": "fix the issue here",
+      "filePath": "src/main/java/org/test/example/Main.java",
+      "textRange": {
+        "startLine": 1,
+        "startColumn": 2,
+        "endLine": 3,
+        "endColumn": 4
+      }
+    }     
+  },
+  { 
+    "engineId": "eslint",
+    "ruleId": "rule2",
+    "severity": "BLOCKER",
+    "type": "VULNERABILITY",
+    "primaryLocation": {
+      "message": "fix the bug here",
+      "filePath": "src/main/java/org/test/example/Main1.java",
+      "textRange": {
+        "startLine": 3
+      }
+    } 
+  },  
+  { 
+    "engineId": "eslint",
+    "ruleId": "rule3",
+    "severity": "BLOCKER",
+    "type": "VULNERABILITY",
+    "primaryLocation": {
+      "message": "fix the bug here",
+      "filePath": "src/main/java/org/test/example/Main.java"
+    }     
+  },
+  { 
+    "engineId": "eslint",
+    "ruleId": "rule3",
+    "severity": "BLOCKER",
+    "type": "VULNERABILITY",
+    "primaryLocation": {
+      "message": "fix the bug here",
+      "filePath": "src/main/java/org/test/example/Main.java"
+    },
+    "secondaryLocations": [
+      {
+        "message": "fix the bug here",
+        "filePath": "src/main/java/org/test/example/Main1.java",
+        "textRange": {
+          "startLine": 1
+        }
+      },
+      {
+        "filePath": "src/main/java/org/test/example/Main1.java",
+        "textRange": {
+          "startLine": 2
+        }
+      }
+    ]
+  }
+]
+}

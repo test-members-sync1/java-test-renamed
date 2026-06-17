@@ -1,0 +1,5 @@
+org.test.example.Main#main([Ljava/lang/String;)V
+993bc8985ccdb4356a1de806a9c942c6
+org.test.example.Main#getPassword()Ljava/lang/String;
+==
+println java.io.PrintStream#println(Ljava/lang/String;)V

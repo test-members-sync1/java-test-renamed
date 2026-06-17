@@ -1,0 +1,55 @@
+¡
+org.test.example.Main1*
+<init> org.test.example.Main1#<init>()V9
+empty0org.test.example.Main1#empty()Ljava/lang/String;E
+getPassword6org.test.example.Main1#getPassword()Ljava/lang/String;G
+getPassword27org.test.example.Main1#getPassword2()Ljava/lang/String;9
+main1org.test.example.Main1#main([Ljava/lang/String;)VC
+
+smthngNew25org.test.example.Main1#smthngNew2()Ljava/lang/String;java.lang.ObjectÔ
+org.test.example.Main)
+<init>org.test.example.Main#<init>()VD
+getPassword5org.test.example.Main#getPassword()Ljava/lang/String;8
+main0org.test.example.Main#main([Ljava/lang/String;)Vjava.lang.Object«
+java.util.StringTokenizerH
+nextElement9java.util.StringTokenizer#nextElement()Ljava/lang/Object;D
+	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;<
+java.util.Scanner'
+nextIntjava.util.Scanner#nextInt()IY
+java.io.BufferedReader?
+readLine3java.io.BufferedReader#readLine()Ljava/lang/String;«
+java.util.StringTokenizerH
+nextElement9java.util.StringTokenizer#nextElement()Ljava/lang/Object;D
+	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;<
+java.util.Scanner'
+nextIntjava.util.Scanner#nextInt()IY
+java.io.BufferedReader?
+readLine3java.io.BufferedReader#readLine()Ljava/lang/String;«
+java.util.StringTokenizerH
+nextElement9java.util.StringTokenizer#nextElement()Ljava/lang/Object;D
+	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;<
+java.util.Scanner'
+nextIntjava.util.Scanner#nextInt()IY
+java.io.BufferedReader?
+readLine3java.io.BufferedReader#readLine()Ljava/lang/String;«
+java.util.StringTokenizerH
+nextElement9java.util.StringTokenizer#nextElement()Ljava/lang/Object;D
+	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;<
+java.util.Scanner'
+nextIntjava.util.Scanner#nextInt()IY
+java.io.BufferedReader?
+readLine3java.io.BufferedReader#readLine()Ljava/lang/String;«
+java.util.StringTokenizerH
+nextElement9java.util.StringTokenizer#nextElement()Ljava/lang/Object;D
+	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;<
+java.util.Scanner'
+nextIntjava.util.Scanner#nextInt()IY
+java.io.BufferedReader?
+readLine3java.io.BufferedReader#readLine()Ljava/lang/String;«
+java.util.StringTokenizerH
+nextElement9java.util.StringTokenizer#nextElement()Ljava/lang/Object;D
+	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;<
+java.util.Scanner'
+nextIntjava.util.Scanner#nextInt()IY
+java.io.BufferedReader?
+readLine3java.io.BufferedReader#readLine()Ljava/lang/String;
